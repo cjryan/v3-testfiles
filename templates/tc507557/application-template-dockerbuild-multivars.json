@@ -79,7 +79,7 @@
         "creationTimestamp": null
       },
       "spec": {
-        "dockerImageRepository": "registry.access.redhat.com/openshift3/ruby-22-rhel7"
+        "dockerImageRepository": "registry.access.redhat.com/rhscl/ruby-22-rhel7"
       },
       "status": {
         "dockerImageRepository": ""
@@ -329,7 +329,7 @@
             "containers": [
               {
                 "name": "ruby-helloworld-database",
-                "image": "registry.access.redhat.com/openshift3/mysql-55-rhel7:latest",
+                "image": "registry.access.redhat.com/rhscl/mysql-55-rhel7:latest",
                 "ports": [
                   {
                     "containerPort": 3306,
