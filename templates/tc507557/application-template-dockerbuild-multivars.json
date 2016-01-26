@@ -329,7 +329,7 @@
             "containers": [
               {
                 "name": "ruby-helloworld-database",
-                "image": "registry.access.redhat.com/rhscl/mysql-55-rhel7:latest",
+                "image": "registry.access.redhat.com/openshift3/mysql-55-rhel7:latest",
                 "ports": [
                   {
                     "containerPort": 3306,
