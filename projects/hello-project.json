@@ -5,10 +5,6 @@
         "name": "hello-project"
     },
     "spec": {
-        "finalizers": [
-            "openshift.io/origin",
-            "kubernetes"
-        ]
     },
     "status": {
         "phase": "Active"
