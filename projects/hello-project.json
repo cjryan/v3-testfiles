@@ -2,7 +2,7 @@
     "kind": "Project",
     "apiVersion": "v1",
     "metadata": {
-        "name": "hello-project",
+        "name": "hello-project"
     },
     "spec": {
         "finalizers": [
