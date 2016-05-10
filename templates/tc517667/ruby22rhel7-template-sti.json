@@ -125,30 +125,30 @@
           },
           "images": [
           {
-          "from": {
-          "kind": "ImageStreamTag",
-          "name": "jenkins:latest",
-          "namespace": "openshift"
+            "from": {
+              "kind": "ImageStreamTag",
+              "name": "jenkins:latest",
+              "namespace": "openshift"
+            },
+            "paths": [
+            {
+              "sourcePath": "/opt/openshift",
+              "destinationDir": "xiuwangs2i"
+            }
+            ]
           },
-          "paths": [
           {
-          "sourcePath": "/opt/openshift",
-          "destinationDir": "xiuwangs2i"
-          }
-          ]
-          },
-          {
-          "from": {
-          "kind": "ImageStreamTag",
-          "name": "mysql:latest",
-          "namespace": "openshift"
-          },
-          "paths": [
-          {
-          "sourcePath": "/opt/rh/rh-mysql56/",
-          "destinationDir": "xiuwangs2i-2"
-          }
-          ]
+            "from": {
+              "kind": "ImageStreamTag",
+              "name": "mysql:latest",
+              "namespace": "openshift"
+            },
+            "paths": [
+            {
+              "sourcePath": "/opt/rh/rh-mysql56/",
+              "destinationDir": "xiuwangs2i-2"
+            }
+            ]
           }
           ]
         },
