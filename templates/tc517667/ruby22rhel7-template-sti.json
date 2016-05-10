@@ -136,10 +136,7 @@
           "destinationDir": "xiuwangs2i"
           }
           ]
-          }
-          ],
-
-          "images": [
+          },
           {
           "from": {
           "kind": "ImageStreamTag",
