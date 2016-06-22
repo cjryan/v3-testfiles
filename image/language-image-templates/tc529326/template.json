@@ -8,7 +8,6 @@
         }
     },
     "spec": {
-      "dockerImageRepository": "registry.access.redhat.com/rhscl/ruby-23-rhel7"
     },
     "status": {
     }
@@ -52,7 +51,7 @@
             "sourceStrategy": {
                 "from": {
                     "kind": "ImageStreamTag",
-                    "namespace": "rhscl",
+                    "namespace": "registry.access.redhat.com/rhscl/python-27-rhel7",
                     "name": "ruby:2.3"
                 }
             }
