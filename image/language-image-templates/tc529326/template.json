@@ -7,7 +7,9 @@
             "app": "rails-ex"
         }
     },
-    "spec": {},
+    "spec": {
+      "dockerImageRepository": "registry.access.redhat.com/rhscl/ruby-23-rhel7"
+    },
     "status": {
     }
 }
